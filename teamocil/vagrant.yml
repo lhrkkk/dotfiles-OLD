@@ -1,0 +1,10 @@
+windows:
+  - name: vagrant
+    root: /Users/lhr/_env/vagrant
+    layout: main-vertical
+    panes:
+      - commands:
+        - ls
+        focus: true
+      - git status
+      - ls

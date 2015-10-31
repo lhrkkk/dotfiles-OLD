@@ -1,0 +1,19 @@
+windows:
+  - name: sample-two-panes
+    root: /Users/lhr/try
+    layout: main-vertical
+    panes:
+      - commands:
+        - ls
+        focus: true
+      - git status
+      - ipython
+  - name: sample-two-panes
+    root: /Users/lhr/try
+    layout: main-vertical
+    panes:
+      - commands:
+        - ls
+        focus: true
+      - git status
+      - ipython
