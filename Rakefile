@@ -1,3 +1,5 @@
+
+# todo: 去掉yadr的固定目录
 require 'rake'
 require 'fileutils'
 require File.join(File.dirname(__FILE__), 'bin', 'yadr', 'vundle')
