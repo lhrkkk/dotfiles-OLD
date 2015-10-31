@@ -11,6 +11,9 @@ ino kk <esc>
 cno kk <c-c>
 set nocompatible
 
+" do not save sessions
+":let g:session_autosave = 'no'
+
 " TODO: this may not be in the correct place. It is intended to allow overriding <Leader>.
 " source ~/.vimrc.before if it exists.
 if filereadable(expand("~/.vimrc.before"))
